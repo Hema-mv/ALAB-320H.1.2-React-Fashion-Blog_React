@@ -1,0 +1,22 @@
+/* src/Article.css */
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+  }
+  
+  article h3 {
+    font-size: larger;
+  }
+  
+  article a {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+  }
+  
+  article p::first-letter {
+    color: lightgray;
+  }
+  
